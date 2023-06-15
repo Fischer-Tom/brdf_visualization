@@ -1,0 +1,12 @@
+MATERIAL : "phong"
+THETA_i : 65
+SPECULAR_COEFFICIENT : 0.4
+DIFFUSE_COEFFICIENT : 0.6
+
+
+
+Lambertian: {"rho_d": [0,1.0]}
+Phong: {"rho_d": [0,1.0], "rho_s": [0,1.0], "exp": [0.0,100.0]}
+Cook-Torrance: {"rho_d": [0,1.0], "rho_s": [0,1.0], "m": [0.2,1.0]}
+Torrance-Sparrow: {"rho_d": [0,1.0], "rho_s": [0,1.0], "m": [0.2,1.0]}
+Ward: {"rho_d": [0,1.0], "rho_s": [0,1.0], "sigma_x": [0.1,1.0],"sigma_y": [0.1,1.0]}
